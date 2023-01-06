@@ -1,0 +1,30 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-div {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+/* button */
+.btn-success:hover {
+  color: #fff;
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+.btn-success:focus {
+  box-shadow: none;
+}
